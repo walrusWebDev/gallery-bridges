@@ -52,4 +52,4 @@ This WordPress plugin allows you to easily create and manage image galleries sou
 
 ## Version Control
 
-This project will use Git for version control and GitHub for remote repository management. The `main` branch will represent the stable version. Feature development and bug fixes will occur in separate branches, with pull requests used for merging into `main`. A `.gitignore` file configured for WordPress projects will be used to exclude unnecessary files.
+This project will use Git for version control and GitHub for remote repository management. The `master` branch will represent the stable version. Feature development and bug fixes will occur in separate branches, with pull requests used for merging into `master`. A `.gitignore` file configured for WordPress projects will be used to exclude unnecessary files.
