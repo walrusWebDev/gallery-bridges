@@ -1,11 +1,11 @@
 <?php
 /**
  * Plugin Name:     Gallery Bridges
- * Plugin URI:      https://tomatketfirst.com
- * Description:     A plugin to manage image galleries sourced from external APIs.
- * Version:         0.1.0
+ * Plugin URI:      https://tomarketfirst.com
+ * Description:     A plugin to manage images through the Media Library.
+ * Version:         0.1.1
  * Author:          Lbridges
- * Author URI:      https://tomatketfirst.com
+ * Author URI:      https://tomarketfirst.com
  * License:         GPL-2.0+
  * License URI:     http://www.gnu.org/licenses/gpl-2.0.txt
  * Text Domain:     gallery-bridges
@@ -28,6 +28,8 @@ require_once GALLERY_BRIDGES_PLUGIN_DIR . 'includes/admin/manage-connections.php
 require_once GALLERY_BRIDGES_PLUGIN_DIR . 'includes/admin/manage-collections.php';
 require_once GALLERY_BRIDGES_PLUGIN_DIR . 'includes/database/api-options-table.php';
 require_once GALLERY_BRIDGES_PLUGIN_DIR . 'includes/database/image-collections-table.php';
+
+require_once GALLERY_BRIDGES_PLUGIN_DIR . 'vendor/autoload.php';
 
 // Activation hook to create database tables
 register_activation_hook( __FILE__, 'gb_create_database_tables' );
